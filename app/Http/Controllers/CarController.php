@@ -1,22 +1,6 @@
 <?php
 
-namespace App;
-use Illuminate\Database\Eloquent\Model;
-
-class Car extends Model
-{
-
-    protected $table = 'cars';
-
-    protected $fillable = [
-        'make', 'model', 'year',
-    ];
-}
-
-
 namespace App\Http\Controllers;
-
-
 
 use App\Car;
 use Illuminate\Http\Request;
